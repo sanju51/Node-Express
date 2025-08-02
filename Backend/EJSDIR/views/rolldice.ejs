@@ -6,7 +6,12 @@
     <title>Roll Dice</title>
 </head>
 <body>
-    <h1>Dive gave you the value <%=  %></h1>
+    <h1>Dive gave you the value <%= num %></h1>
+    <% if(num==6) { %>
+        <h2>Congratulations! You rolled a 6!</h2>
+    <% }   %>
     
 </body>
 </html>
+
+
